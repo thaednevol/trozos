@@ -155,7 +155,7 @@ dependencies:
   - pygments=2.6.1=py_0
   - pyopenssl=19.1.0=py_1
   - pyparsing=2.4.7=pyh9f0ad1d_0
-  - pyqt=5.12.3=py38h7ae7562_3
+  - pyqt=5.12.3=py39hb0d2dfa_4
   - pyrsistent=0.16.0=py38h9de7a3e_0
   - pyshp=2.1.0=py_0
   - pysocks=1.7.1=py38h32f6830_1
