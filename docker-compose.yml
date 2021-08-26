@@ -1,0 +1,15 @@
+version: '3'
+services:
+  tesis:
+    build:
+        dockerfile: ./Dockerfile
+    image: jupyter/scipy-notebook
+    volumes:
+        - app-volume:/home/jovyan/
+    ports:
+    - 8888:8888
+    
+volumes:
+     app-volume: 
+  
+
