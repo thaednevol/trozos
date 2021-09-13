@@ -5,11 +5,12 @@ services:
         dockerfile: ./Dockerfile
     image: jupyter/scipy-notebook
     volumes:
-        - app-volume:/home/jovyan/
+        - app-volume:/c/Users/edwin.hurtado/Proyectos/Universidad/Maestria/trozos/temp:/home/jovyan/
     ports:
     - 8888:8888
     
 volumes:
-     app-volume: 
+     app-volume:
+        driver: local
   
 
